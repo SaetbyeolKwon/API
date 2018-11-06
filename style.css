@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #9BD7E0;
+  background-image: url('pokedex1.png');
+  background-repeat: no-repeat;
+  font-family: 'Press Start 2P', Arial, cursive;
+}
+
+#sprites{
+  position: fixed;
+  top: 155px;
+  left: 65px;
+  width: 260px;
+  height: 175px;
+  /* background-color: black; */
+}
+
+img{
+  /* margin-left: 50px; */
+  height: 175px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inputBox{
+  position: fixed;
+  top: 120px;
+  left: 445px;
+  background-color: blue;
+}
+
+#name{
+  width: 130px;
+  height: 30px;
+}
+.pokemonName{
+  margin-left: 480px;
+  margin-top: 190px;
+}
+
+#height{
+  margin-left: 480px;
+  margin-top: 3px;
+  /* display: inline-block; */
+}
+
+#weight{
+  margin-left: 480px;
+  margin-top: 10px;
+  /* display: inline-block; */
+}
+
+.button{  
+  position: fixed;
+  top: 238px;
+  width: 110px;
+  height: 45px;
+  margin-left: 100px;
+  margin-top: 215px;
+}
+
+button{
+  width: 100%;
+  height: 45px;
+  opacity: 1;
+  display: block;
+  background-color: yellow;
+  border: 0;
+  font-family: 'Press Start 2P';
+  font-size: 14px;
+  line-height: 14px;
+}
